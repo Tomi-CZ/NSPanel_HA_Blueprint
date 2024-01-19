@@ -50,6 +50,7 @@ esp32:
 ##### WIFI SETUP #####
 wifi:
   id: wifi_component
+  use_address: ${ip}
   power_save_mode: LIGHT
   networks:
     - id: wifi_default
